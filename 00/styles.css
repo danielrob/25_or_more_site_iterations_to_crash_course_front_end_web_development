@@ -1,0 +1,8 @@
+#site-header img, nav, ul, li {
+  display: inline;
+}
+
+nav {
+  text-align: top;
+  float: right;
+}
