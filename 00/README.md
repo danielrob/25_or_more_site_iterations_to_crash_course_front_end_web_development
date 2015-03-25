@@ -15,8 +15,10 @@ Templating HTML (I.e. DRY - don't repeat yourself... I will!)
 
 ## TODO: 
 * Template out the header & footer somehow
-* Make background images span header div properly
-* Size logo
-* Center Header Headings Text
+* Extend the header div to the borders of the page. 
+* Vertical Center Header Headings Text
 * Try a carousel of some type
 * Finish HTML for other pages. 
+
+
+

@@ -1,8 +1,46 @@
-#site-header img, nav, ul, li {
+#site-header {
+  /* Background image centering thanks to https://dash.generalassemb.ly */
+  background-size: cover;
+  background-position: center;
+}
+
+#site-header img, #nav-main li {
   display: inline;
 }
 
-nav {
+#site-header p, #site-header h1 {
+  text-align: center;
+}
+
+#site-header * {
+  color: white;
+}
+
+#nav-main {
   text-align: top;
   float: right;
 }
+
+#nav-main a {
+  text-decoration: none;
+}
+
+#logo {
+  width: 315px;
+  height: 63px;
+}
+
+.side-nav, .stay-main {
+  float: left;
+}
+
+.container {
+  width: 66%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+}
+
