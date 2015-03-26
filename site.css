@@ -5,7 +5,7 @@ body {
 #site-header {
   /* Background image centering thanks to https://dash.generalassemb.ly */
   background-size: cover;
-  background-position: 0 -280px;
+  background-position: center 85%;
   height: 507px;
   padding: 20px;
 }
