@@ -1,7 +1,13 @@
+body {
+    margin:0px;
+}
+
 #site-header {
   /* Background image centering thanks to https://dash.generalassemb.ly */
   background-size: cover;
-  background-position: center;
+  background-position: 0 -280px;
+  height: 507px;
+  padding: 20px;
 }
 
 #site-header img, #nav-main li {
@@ -10,6 +16,11 @@
 
 #site-header p, #site-header h1 {
   text-align: center;
+}
+
+#site-header h1 {
+  height: 350px;
+  line-height: 350px;
 }
 
 #site-header * {
@@ -24,6 +35,11 @@
 #nav-main a {
   text-decoration: none;
 }
+
+#nav-main li {
+  padding: 0 10px;
+}
+
 
 #logo {
   width: 315px;
@@ -41,6 +57,8 @@
 }
 
 footer {
+  padding: 40px;
   clear: both;
+  text-align: center;
 }
 

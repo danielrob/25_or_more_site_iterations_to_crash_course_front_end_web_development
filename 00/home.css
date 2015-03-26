@@ -1,3 +1,9 @@
 #site-header {
   background-image: url("images/index-banner/DSC01281.JPG");
+  height: 700px;
+}
+
+#site-header p, #site-header h1 {
+  height: 30px;
+  line-height: 650px;
 }
