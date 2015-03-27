@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -15,16 +17,6 @@ a {
   color: inherit;
 }
 
-footer {
-  padding: 40px;
-  clear: both;
-  text-align: center;
-}
-
-footer p:first-child {
-  font-family: Arial;
-}
-
 blockquote {
   font-style: italic;
 }
@@ -34,32 +26,25 @@ img {
   max-width: 100%;
 }
 
-#overlay {
-  background-color: rgba(26,26,26,0.3);
-  height: 507px;
-  padding: 20px;
-}
- 
-#site-header {
-  /* Background image centering thanks to https://dash.generalassemb.ly */
+/* HEADER */
+
+header {
+  /* Cover does not keep image centered with centered text. Will require responsive design */
   background-size: cover;
-  background-position: center 85%;
+  background-position: center center;
+  color: white;
 }
 
-#site-header img, #nav-main li {
-  display: inline;
-}
-
-#site-header p, #site-header h1 {
+header p, header h1 {
   text-align: center;
 }
 
-#site-header p {
+header p {
   font-size: 1.6em;
   font-family: 'Nothing You Could Do', cursive;
 }
 
-#site-header h1 {
+header h1 {
   font-family: 'Lato', sans-serif;
   font-size: 4em;
   font-weight: 100;
@@ -67,15 +52,32 @@ img {
   margin-left: 2px;
 }
 
-#site-header * {
-  color: white;
+header .overlay {
+  background-color: rgba(26,26,26,0.3);
+  height: 507px;
+  padding: 20px;
 }
+
+/* MAIN NAVIGATION & LOGO */
 
 #nav-main {
   text-align: top;
   float: right;
   padding: 4px;
   margin-right: -20px;
+}
+
+#logo {
+  width: 315px;
+  height: 63px;
+}
+
+header img, #nav-main li {
+  display: inline;
+}
+
+#nav-main li {
+  padding: 0 15px;
 }
 
 #nav-main a {
@@ -90,25 +92,12 @@ img {
   border-radius: 25px;
 }
 
-
 #nav-main li:last-child a:hover {
   background-color: white;
   color: rgba(26, 26, 26, 0.7);
 }
 
-#nav-main li {
-  padding: 0 15px;
-}
-
-
-#logo {
-  width: 315px;
-  height: 63px;
-}
-
-.side-nav, .stay-main {
-  float: left;
-}
+/* BODY */
 
 .container {
   width: 1020px;
@@ -127,8 +116,13 @@ img {
   font-size: 32px;
 }
 
-.container .intro, .container article {
+.intro, article {
   padding: 17px;
+}
+
+article {
+  float: left;
+  width: 495px;
 }
 
 .container .intro {
@@ -137,7 +131,15 @@ img {
   text-align: left;
 }
 
-.container article {
-  float: left;
-  width: 495px;
+
+/* FOOTER */
+
+footer {
+  padding: 40px;
+  clear: both;
+  text-align: center;
+}
+
+footer p:first-child {
+  font-family: Arial;
 }

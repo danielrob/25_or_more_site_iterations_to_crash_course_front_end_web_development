@@ -1,3 +1,7 @@
-#site-header {
+header {
   background-image: url('images/stay/BH-Lounge-073.JPG');
+}
+
+.side-nav, .container {
+  float: left;
 }

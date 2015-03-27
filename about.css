@@ -1,8 +1,8 @@
-#site-header {
+header {
   background-image: url("images/about/HostsDavidandLynnDSC02135.JPG");
 }
 
-#site-header p, #site-header h1 {
+header p, #site-header h1 {
   height: 20px;
   line-height: 220px;
 }

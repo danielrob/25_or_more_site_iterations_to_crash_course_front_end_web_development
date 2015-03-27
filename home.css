@@ -1,13 +1,14 @@
-#site-header {
+header {
   background-image: url("images/index-banner/DSC01281.JPG");
+  background-position: center 85%;
   height: 700px;
 }
 
-#overlay {
+header .overlay {
   height: 700px;
 }
 
-#site-header p, #site-header h1 {
+header p, header h1 {
   height: 20px;
   line-height: 420px;
 }
