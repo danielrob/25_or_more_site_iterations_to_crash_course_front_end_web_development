@@ -1,5 +1,9 @@
 #site-header {
   background-image: url("images/index-banner/DSC01281.JPG");
+  height: 700px;
+}
+
+#overlay {
   /* 700 - 20 padding */
   height: 660px;
 }
