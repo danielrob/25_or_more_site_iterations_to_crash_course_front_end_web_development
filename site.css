@@ -134,12 +134,25 @@ article {
 
 /* FOOTER */
 
+#prefooter {
+  background-color: #333;
+  height: 64px;
+  clear: both;
+}
+
 footer {
   padding: 40px;
-  clear: both;
+  background-color: #1f1f1f;
   text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  font-family: Lato;
 }
 
 footer p:first-child {
-  font-family: Arial;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 11px;
+  padding-bottom: 20px;
 }
