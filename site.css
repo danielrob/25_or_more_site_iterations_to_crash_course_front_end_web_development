@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     color: rgba(26, 26, 26, 0.7);
@@ -19,13 +25,21 @@ footer p:first-child {
   font-family: Arial;
 }
 
-#overlay {
-  background-color: rgba(26,26,26,0.3);
-  /* 507 - 20 padding */
-  height: 467px;
-  padding: 20px;
+blockquote {
+  font-style: italic;
 }
 
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#overlay {
+  background-color: rgba(26,26,26,0.3);
+  height: 507px;
+  padding: 20px;
+}
+ 
 #site-header {
   /* Background image centering thanks to https://dash.generalassemb.ly */
   background-size: cover;
@@ -97,7 +111,8 @@ footer p:first-child {
 }
 
 .container {
-  width: 66%;
+  width: 1020px;
+  padding: 96px 15px;
   margin: 0 auto;
   text-align: center;
   font-size: 18px;
@@ -109,4 +124,20 @@ footer p:first-child {
 .container h1 {
   font-weight: 400;
   color: black;
+  font-size: 32px;
+}
+
+.container .intro, .container article {
+  padding: 17px;
+}
+
+.container .intro {
+  width: 680px;
+  margin: 0 auto 69px auto;
+  text-align: left;
+}
+
+.container article {
+  float: left;
+  width: 495px;
 }

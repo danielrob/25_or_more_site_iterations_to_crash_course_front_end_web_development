@@ -4,8 +4,7 @@
 }
 
 #overlay {
-  /* 700 - 20 padding */
-  height: 660px;
+  height: 700px;
 }
 
 #site-header p, #site-header h1 {
