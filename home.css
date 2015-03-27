@@ -1,9 +1,10 @@
 #site-header {
   background-image: url("images/index-banner/DSC01281.JPG");
-  height: 700px;
+  /* 700 - 20 padding */
+  height: 660px;
 }
 
 #site-header p, #site-header h1 {
-  height: 30px;
-  line-height: 650px;
+  height: 20px;
+  line-height: 420px;
 }

@@ -1,13 +1,31 @@
 body {
     margin: 0px;
     color: rgba(26, 26, 26, 0.7);
+    font-family: Garamond;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  padding: 40px;
+  clear: both;
+  text-align: center;
+}
+
+footer p:first-child {
+  font-family: Arial;
 }
 
 #site-header {
   /* Background image centering thanks to https://dash.generalassemb.ly */
   background-size: cover;
-  background-position: center 85%;
-  height: 507px;
+  background-position: 25% 106%;
+  background-repeat: no-repeat;
+  /* 507 - 20 padding */
+  height: 467px;
   padding: 20px;
 }
 
@@ -19,9 +37,17 @@ body {
   text-align: center;
 }
 
+#site-header p {
+  font-size: 1.6em;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
 #site-header h1 {
-  height: 350px;
-  line-height: 350px;
+  font-family: 'Lato', sans-serif;
+  font-size: 4em;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-left: 2px;
 }
 
 #site-header * {
@@ -31,14 +57,30 @@ body {
 #nav-main {
   text-align: top;
   float: right;
+  padding: 4px;
+  margin-right: -20px;
 }
 
 #nav-main a {
-  text-decoration: none;
+  font-family: Arial;
+  font-size: 0.75em;
+  letter-spacing: 2px;
+}
+
+#nav-main li:last-child a {
+  padding: 13px 20px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+
+#nav-main li:last-child a:hover {
+  background-color: white;
+  color: rgba(26, 26, 26, 0.7);
 }
 
 #nav-main li {
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 
@@ -55,11 +97,13 @@ body {
   width: 66%;
   margin: 0 auto;
   text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: 1.6em;
 }
 
-footer {
-  padding: 40px;
-  clear: both;
-  text-align: center;
+.container h1 {
+  font-weight: 400;
+  color: black;
 }
-
