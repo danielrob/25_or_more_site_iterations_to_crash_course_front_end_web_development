@@ -1,5 +1,6 @@
+/* SET IMAGE & CHANGE HEADER SIZE */
 header {
-  background-image: url("images/index-banner/DSC01281.JPG");
+  background-image: url("../images/index-banner/DSC01281.JPG");
   background-position: center 85%;
   height: 700px;
 }

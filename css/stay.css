@@ -1,0 +1,35 @@
+/* Overrides */
+header {
+  background-image: url('../images/stay/BH-Lounge-073.JPG');
+}
+
+.container {
+  padding: 96px 11px;
+  min-height: 1190px;
+}
+
+.container .intro {
+  width: 743px;
+  padding-top: 0px;
+}
+
+.section-body {
+  padding: 10px 50px;
+}
+
+/* SIDE NAVIGATION */
+#side-nav, .intro {
+  float: left;
+}
+
+#side-nav {
+  padding-bottom: 64px;
+  width: 255px;
+  text-align: left;
+  font-family: Lato;
+}
+
+#side-nav ul {
+  list-style-type: none;
+  margin: 0px;
+}

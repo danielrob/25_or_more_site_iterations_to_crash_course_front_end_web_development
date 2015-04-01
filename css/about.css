@@ -1,0 +1,19 @@
+header {
+  background-image: url("../images/about/HostsDavidandLynnDSC02135.JPG");
+}
+
+.container {
+  min-height: 728px;
+}
+
+.section-body {
+  width: 626px;
+  margin: 0 auto 86px auto;
+  padding: 34px 0;
+}
+
+.container img {
+  width: 330px;
+  padding: 17px;
+  float: left;
+}

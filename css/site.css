@@ -1,5 +1,6 @@
 /* GENERAL */
 
+/* Use box-sizing, so that width is always as stated */
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -29,19 +30,15 @@ img {
 /* HEADER */
 
 header {
-  /* Cover does not keep image centered with centered text. Will require responsive design */
   background-size: cover;
   background-position: center center;
   color: white;
 }
 
-header p, header h1 {
-  text-align: center;
-}
-
 header p {
   font-size: 1.6em;
   font-family: 'Nothing You Could Do', cursive;
+  text-align: center;
 }
 
 header h1 {
@@ -50,6 +47,9 @@ header h1 {
   font-weight: 100;
   letter-spacing: 3px;
   margin-left: 2px;
+  height: 20px;
+  line-height: 240px;
+  text-align: center;
 }
 
 header .overlay {
@@ -58,7 +58,16 @@ header .overlay {
   padding: 20px;
 }
 
-/* MAIN NAVIGATION & LOGO */
+header img {
+  display: inline;
+}
+
+#logo {
+  width: 315px;
+  height: 63px;
+}
+
+/* SITE NAVIGATION */
 
 #nav-main {
   text-align: top;
@@ -67,23 +76,15 @@ header .overlay {
   margin-right: -20px;
 }
 
-#logo {
-  width: 315px;
-  height: 63px;
-}
-
-header img, #nav-main li {
-  display: inline;
-}
-
-#nav-main li {
-  padding: 0 15px;
-}
-
 #nav-main a {
   font-family: Arial;
   font-size: 0.75em;
   letter-spacing: 2px;
+}
+
+#nav-main li {
+  padding: 0 15px;
+  display: inline;
 }
 
 #nav-main li:last-child a {
@@ -92,12 +93,19 @@ header img, #nav-main li {
   border-radius: 25px;
 }
 
+
 #nav-main li:last-child a:hover {
   background-color: white;
   color: rgba(26, 26, 26, 0.7);
 }
 
 /* BODY */
+
+article {
+  float: left;
+  width: 495px;
+  padding: 17px;
+}
 
 .container {
   width: 1020px;
@@ -111,18 +119,12 @@ header img, #nav-main li {
 }
 
 .container h1 {
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
   font-weight: 400;
   color: black;
   font-size: 32px;
-}
-
-.intro, article {
-  padding: 17px;
-}
-
-article {
-  float: left;
-  width: 495px;
 }
 
 .container .intro {
@@ -131,6 +133,9 @@ article {
   text-align: left;
 }
 
+.intro {
+  padding: 17px;
+}
 
 /* FOOTER */
 
@@ -156,3 +161,4 @@ footer p:first-child {
   letter-spacing: 11px;
   padding-bottom: 20px;
 }
+
