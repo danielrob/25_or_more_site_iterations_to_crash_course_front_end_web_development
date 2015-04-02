@@ -9,7 +9,10 @@ header .overlay {
   height: 700px;
 }
 
-header p, header h1 {
-  height: 20px;
-  line-height: 420px;
+#stay-by-sea {
+  font-size: 2.2em;
+  margin-top: 450px;
+  margin-right: 2%;
+  float: right;
+  clear: both;
 }
